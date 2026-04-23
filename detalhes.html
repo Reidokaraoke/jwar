@@ -175,10 +175,9 @@
     <!-- Detalhes -->
     <div class="conteudo-detalhes">
         <div class="detalhes">
+            <p><strong>Número:</strong> <span id="detalhes-numero">Desconhecido</span></p>
             <p><strong>Cantor:</strong> <span id="detalhes-cantor">Artista Desconhecido</span></p>
             <p><strong>Música:</strong> <span id="detalhes-musica">Título Desconhecido</span></p>
-            <p><strong>Número:</strong> <span id="detalhes-numero">Desconhecido</span></p>
-            
         </div>
 
         <!-- Letra -->
@@ -289,10 +288,9 @@
                 if (!musica) throw new Error('Música não encontrada');
 
                 // Preencher detalhes da música
+                document.getElementById('detalhes-numero').textContent = musica.numero;
                 document.getElementById('detalhes-cantor').textContent = musica.cantor;
                 document.getElementById('detalhes-musica').textContent = musica.musica;
-                document.getElementById('detalhes-numero').textContent = musica.numero;
-                
 
                 // Buscar letra da música usando o Google Custom Search
                 const letra = await buscarLetraGoogle(musica.cantor, musica.musica);
