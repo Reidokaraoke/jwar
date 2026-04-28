@@ -28,7 +28,7 @@ async function carregarCatalogo() {
         atualizarCatalogo();
     } catch (erro) {
         aviso.textContent = 'Erro ao carregar o catálogo. Atualize a página.';
-        aviso.style.color = '#f85c4d';
+        aviso.style.color = '#ff6f61';
         console.error(erro);
     }
 }
