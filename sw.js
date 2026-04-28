@@ -1,9 +1,13 @@
 // Ver
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 const CACHE_NAME = 'karaoke-cache-v5';
 =======
 const CACHE_NAME = 'karaoke-cache-v2';
 >>>>>>> 96cd7e0ce8713cb10b11cff8166b0ff73d95108b
+=======
+const CACHE_NAME = 'karaoke-cache-v2';
+>>>>>>> Stashed changes
 
 // Arquivos para cache (atualize com seus caminhos)
 const ASSETS = [
