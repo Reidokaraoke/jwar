@@ -1,4 +1,16 @@
-const CACHE_NAME = 'karaoke-cache-v3'; // 
+<<<<<<< HEAD
+const CACHE_NAME = 'karaoke-cache-v4'; // 
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+const CACHE_NAME = 'karaoke-cache-v5'; // 
+=======
+const CACHE_NAME = 'karaoke-cache-v2'; // 
+>>>>>>> 96cd7e0ce8713cb10b11cff8166b0ff73d95108b
+=======
+const CACHE_NAME = 'karaoke-cache-v2'; // 
+>>>>>>> Stashed changes
+>>>>>>> d8d6ee5fb333152ba78ca4315c9df79d425f2aa9
 const ASSETS = [
   './',
   './index.html',
